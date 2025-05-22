@@ -7,3 +7,5 @@ load_dotenv()
 #can use claude or gpt
 
 llm = ChatAnthropic(model="claude-3-5-sonnet-20241022")
+response = llm.invoke("Who is the father of Ai?")
+print(response)
